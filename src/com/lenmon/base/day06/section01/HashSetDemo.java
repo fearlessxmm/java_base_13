@@ -7,7 +7,7 @@ public class HashSetDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		HashSet<String> set = new HashSet<String>();
-		// 添加数据add
+		// 添加数据add,不能重复，重复的话算1个
 		set.add("a");
 		set.add("b");
 		set.add("c");
